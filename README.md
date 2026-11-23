@@ -1,8 +1,8 @@
 # Token Radar v6.2
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node](https://img.shields.io/badge/Node-22.x-green.svg)](https://nodejs.org/)
-[![Board](https://img.shields.io/badge/Board-198_rows-blue.svg)](https://make.fun/bounty/token-radar-01)
+[![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/DullVentura/token-radar-v62/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/DullVentura/token-radar-v62/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
 
 Hybrid multi-file token launch radar for make.fun competition `token-radar-01` — **v5 core + v6 calibration** (BLUEPRINT §15).
 
