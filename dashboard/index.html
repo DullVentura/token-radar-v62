@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Radar v6.2 — expected-value launch radar, held-out twice</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="headrow">
+      <h1>Token Radar <b>v6.2</b> — expected-value launch radar, held-out twice</h1>
+      <div class="badges">
+        <span class="badge">Ranking + verdict: <b>v5 net</b> · LOO ×3,29 · Top-20 17/20</span>
+        <span class="badge">Intervals: <b>v6 Ridge λ=10</b> · range holds 71,7%</span>
+        <span class="badge">Cutoff <b>2026-11-14</b></span>
+        <span class="badge">Board <b>198</b> · watchlist <b>40</b></span>
+      </div>
+    </div>
+    <p class="sub">Every value term fitted and tested held-out twice · token odds from traded anchors · costed farm verdicts in $/hour.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="loading">Loading the board (data.json)…</div>
+  <div id="app" hidden>
+    <section aria-label="KPI Strip"><div class="kpis" id="kpis"></div></section>
+    <section aria-label="Coverage"><div id="coverage"></div></section>
+    <section class="card filters" aria-label="Filter and sandbox"><div id="filters"></div></section>
+    <p class="countline" id="rowCount"></p>
+    <section aria-label="Board">
+      <div class="tablewrap"><table id="mainTable">
+        <thead><tr>
+          <th data-k="rank">#</th><th data-k="name" class="name">Protocol</th>
+          <th class="r" data-k="tvl">TVL</th><th class="r" data-k="g7">7D</th><th class="r" data-k="age">No token</th>
+          <th class="r" data-k="odds">Launch odds</th><th class="r" data-k="i5">Implied (v5)</th>
+          <th class="r" data-k="net">Net @ $1,000</th><th class="r" data-k="perhour">$/hour</th>
+          <th class="r" data-k="be">Break-even</th><th data-k="verdict">Verdict (v5)</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table></div>
+    </section>
+
+    <h2>Evidence — two layers, side by side, nothing asserted</h2>
+    <section id="evidence" aria-label="Evidence panel"></section>
+
+    <h2 id="detailTitle">Detail View — click a row above</h2>
+    <section class="card" id="detail" aria-label="Detail View">
+      <div id="detailBody"><p class="small">No protocol selected. Click any board row for its derivation, traded anchors, net grid, and full farm plan.</p></div>
+    </section>
+
+    <footer id="foot"></footer>
+  </div>
+  <div id="loadError" class="warn" hidden></div>
+  <script src="app.js"></script>
+</main>
+</body>
+</html>
